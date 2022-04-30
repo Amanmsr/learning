@@ -2,18 +2,18 @@
 
 ### Starting with Git
 ```
-git config --global user.email "you@example.com"<br />
-git config --global user.name "Your Name"<br />
-git config --global core.editor nvim<br />
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config --global core.editor nvim
 
-git config --list          (for current repo)<br />
-git config --global --list (only the globals)<br />
+git config --list          (for current repo)
+git config --global --list (only the globals)
 ```
 (**Note**: omit --global to have this info only for the current repo)
 
 ```
-git log     (show all commits and commit messages)<br />
-git status  (status of the local repo)<br />
+git log     (show all commits and commit messages)
+git status  (status of the local repo)
 ```
 
 ### Getting help
@@ -26,9 +26,9 @@ remote can be a URL for a remote repo on github or it can be a local repo (bare 
 when we pull an already created repo from github we don't need to worry about adding remotes
 
 ```
-git remote -v (list remotes)<br />
-git remote get-url <remote_name> (get the url for a remote)<br />
-git remote rename <old> <new> (rename a remote)<br />
+git remote -v (list remotes)
+git remote get-url <remote_name> (get the url for a remote)
+git remote rename <old> <new> (rename a remote)
 git remote set-url remote_name <new_url> (change the url)
 ```
 

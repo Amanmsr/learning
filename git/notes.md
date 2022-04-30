@@ -1,17 +1,20 @@
 # GIT
 
 ## Starting with Git
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git config --global core.editor nvim
+git config --global user.email "you@example.com"<br />
+git config --global user.name "Your Name"<br />
+git config --global core.editor nvim<br />
+
+git config --list          (for current repo)
+git config --global --list (only the globals)
 
 (NOTE: omit --global to have this info only for the current repo)
 
-### git log     (show all commits and commit messages)
-### git status  (status of the local repo)
+> git log     (show all commits and commit messages)
+> git status  (status of the local repo)
 
 ## Getting help
-git help <command>
+> git help <command>
 ex: git help commit
 
 ## Remotes
